@@ -1,11 +1,11 @@
 <template>
     <div class="page-login">
         <div class="login-header">
-            <a href="http://www.meituan.com" class="logo"></a>
+            <a href="https://www.meituan.com" class="logo"></a>
         </div>
         <div class="login-panel">
             <div class="banner">
-                <img src="http://s0.meituan.net/bs/file/?f=fe-sso-fs:build/page/static/banner/www.jpg" width="480" height="370" alt="美团网">
+                <img src="https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/page/static/banner/www.jpg" width="480" height="370" alt="美团网">
             </div>
             <div class="form">
                 <h4 v-if="error" class="tips">{{ error }}</h4>
